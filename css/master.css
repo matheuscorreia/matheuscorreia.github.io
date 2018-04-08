@@ -159,6 +159,11 @@
   justify-content: space-around;
   align-items: flex-end;
   margin: 0 50px;
+  flex-wrap: wrap;
+}
+
+.icon-link {
+  margin: 10px;
 }
 
 
