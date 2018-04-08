@@ -3,7 +3,6 @@
 .content-wrapper {
   display: flex;
   background-color: #3B3B3B;
-  z-index: -9999;
 }
 
 .layout-item{
