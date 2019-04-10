@@ -133,9 +133,6 @@ body {
   align-self: flex-start;
   text-align: center;
   z-index: 0;
-
-  cursor: none;
-
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -184,12 +181,6 @@ body {
 
 
 @media only screen and (min-width: 1024px) {
-  
-  .link-wrapper {
-    display: flex;
-    flex: 1;
-  }
-
   /* --- Layout stuff --- */
   .group-wrapper {
     padding: 0 8rem;
