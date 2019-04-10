@@ -1,11 +1,15 @@
+body {
+  background-color: #3B3B3B;
+}
 
 /* --- Layout stuff --- */
 .content-wrapper {
   display: flex;
+  flex: 1;
   background-color: #3B3B3B;
 }
 
-.layout-item{
+.layout-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,21 +156,39 @@
   text-decoration: none;
 }
 
+.picture-links:hover {
+  text-decoration: underline;
+}
+
 .link-wrapper {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin: 0 50px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .icon-link {
   margin: 10px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all .1s linear;
+}
+
+.icon-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 
 @media only screen and (min-width: 1024px) {
+  
+  .link-wrapper {
+    display: flex;
+    flex: 1;
+  }
 
   /* --- Layout stuff --- */
   .group-wrapper {
