@@ -103,7 +103,7 @@ body {
   }
 }
 
-.name-glitch.active::before {
+.name-glitch:hover::before {
   display: block;
   content: "Matheus Correia";
   color: #0FF;
@@ -112,7 +112,7 @@ body {
   z-index: -1;
 }
 
-.name-glitch.active::after {
+.name-glitch:hover::after {
   display: block;
   content: "Matheus Correia";
   color: #f0f;
